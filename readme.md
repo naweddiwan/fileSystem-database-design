@@ -50,7 +50,7 @@ The file structure system is inherently hierarchical  and conventional relationa
     
     This is the approach that i picked to implement the required design. In this approach along with the data of files and folder we will maintain the parent child relationship. A parent will store the pointers lft and rgt in such a way that all its children have their lft and rgt pointers within it's parent range.
     
-    ![Representation of the Nested Set Model](ImageKit%20assignment%20388e1195b5b1447eb22c564c9983f272/Blank_diagram.jpeg)
+    ![Representation of the Nested Set Model](images/Blank_diagram.jpeg)
     
     Representation of the Nested Set Model
     
@@ -104,7 +104,7 @@ INSERT INTO `tb_folders` (`folder_name`, `folder_path`, `parent_id`) VALUES ('ro
 INSERT INTO `tb_file_structure` (`folder_id`, `file_id`, `parent_id`, `lft`, `rgt`) VALUES (1, NULL, NULL, 1, 2 );
 ```
 
-![The Schema](ImageKit%20assignment%20388e1195b5b1447eb22c564c9983f272/Untitled.png)
+![The Schema](images/Untitled.png)
 
 The Schema
 
